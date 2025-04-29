@@ -1,0 +1,1 @@
+{"name":"Local: DFS","url":"f:\\C++\\DS Algorithm\\DFS.cpp","tests":[{"id":1731489455486,"input":"6 7\n1 2\n2 4\n4 3\n3 1\n2 5\n5 6\n6 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\DS Algorithm\\DFS.cpp","group":"local","local":true}

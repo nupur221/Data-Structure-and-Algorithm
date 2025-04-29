@@ -1,0 +1,1 @@
+{"name":"Local: LCS","url":"f:\\C++\\DS Algorithm\\LCS.cpp","tests":[{"id":1733221886224,"input":"4\n2\nABC\nCBA\n2\nbacab\ndefed\n3\nabcde\naBcDe\nace\n2\ncodeforces\ntechnocup","output":"1\nA\n0\n3\nace\n3\ncoc"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\DS Algorithm\\LCS.cpp","group":"local","local":true}

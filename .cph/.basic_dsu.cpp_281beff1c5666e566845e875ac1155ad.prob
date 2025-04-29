@@ -1,0 +1,1 @@
+{"name":"Local: basic_dsu","url":"f:\\C++\\DS Algorithm\\basic_dsu.cpp","tests":[{"id":1739002778875,"input":"9 9\n1 2\n2 3\n3 4\n3 1\n4 6\n4 5\n7 8\n8 9\n4 2","output":"1\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\C++\\DS Algorithm\\basic_dsu.cpp","group":"local","local":true}
