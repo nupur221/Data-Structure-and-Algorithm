@@ -1,11 +1,12 @@
-#include<bits/stdc++.h>
-#define fast()  ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#include <iostream>
+#include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main() {
-    fast();
-    int t;  cin >> t;
-    for (int i = 1; i <= t; i++) {
+    int t;
+    cin >> t;
+    for (int i = 1; i <= t;  i++) {
         double x1, y1, z1, x2, y2, z2, x, y, z;
         cin >> x1 >> y1 >> z1 >> x2 >> y2 >> z2 >> x >> y >> z;
         
@@ -35,13 +36,13 @@ int main() {
         double dy = y - closest_y;
         double dz = z - closest_z;
         
-        double dist = sqrt(dx * dx + dy * dy + dz * dz);
+        double distance = sqrt(dx * dx + dy * dy + dz * dz);
         
         cout << "Case " << i << ": ";
-        if (dist == floor(dist)) {
-            cout << (int)dist;
+        if (distance == floor(distance)) {
+            cout << (int)distance;
         } else {
-            cout << fixed << setprecision(10) << dist;
+            cout << fixed << setprecision(10) << distance;
         }
         cout << endl;
     }
