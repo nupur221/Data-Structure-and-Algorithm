@@ -1,6 +1,4 @@
-#include <iostream>
-#include <cmath>
-#include <iomanip>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
