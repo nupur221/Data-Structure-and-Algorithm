@@ -41,12 +41,6 @@ int main()
 {
     fast();
     ll t ; cin>>t;
-    //int tt=1;
-    while(t--) 
-    {
-      //cout<<"Case "<<tt<<": ";
-     // tt++;
-     solve();
-    }
+    while(t--)  solve();
    checkmate;
 }
