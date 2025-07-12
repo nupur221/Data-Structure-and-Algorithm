@@ -24,23 +24,6 @@ void sieve(int n){
         if(isPrime[i] == true) v.push_back(i);
     }
 }
-// void seg_sieve(int l, int r){
-//     int mxn2 = r-l+1;
-//     bool isSeg[mxn2];
-//     memset(isSeg,1,sizeof(isSeg));
-//     if(l == 1) isSeg[0] = false;
-//     for(auto u : v){
-//         if(u * u > r) break;
-//         ll s = max(u * u, (l + u - 1) / u * u);
-//           for (ll i = s; i <= r; i += u) {
-//             if (i != u) isSeg[i - l] = false;
-//         }
-//     }
-//     for (int i = 0; i < mxn2 ; i++) {
-//         if (isSeg[i] == true) cout << l + i << endl;
-//     }
-
-// }
 int main(){
     fast();
     sieve(mxn);
@@ -51,6 +34,7 @@ int main(){
     }
    return 0;
 }
+
 
 
 
